@@ -44,19 +44,52 @@
 
 :::homework{id="7.0" title="Instalar Docker y Podman" due="2026-02-10" points="0"}
 
-**Objetivo:** Tener Docker y Podman instalados y funcionando en tu sistema.
+**Objetivo:** Tener Docker y Podman instalados y funcionando **SIN usar sudo**.
 
-### Instrucciones:
+### 1. Instalar Docker
 
-1. **Instalar Docker:**
-   - [Guía de instalación de Docker](https://docs.docker.com/engine/install/)
-   - Verificar con: `docker --version`
+1. **Instalación:**
+   - [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
+   - Busca tu distribución (Ubuntu, Debian, Fedora, etc.) y sigue las instrucciones
 
-2. **Instalar Podman:**
-   - [Guía de instalación de Podman](https://podman.io/getting-started/installation)
-   - Verificar con: `podman --version`
+2. **Post-instalación (MUY IMPORTANTE):**
+   - [https://docs.docker.com/engine/install/linux-postinstall/](https://docs.docker.com/engine/install/linux-postinstall/)
+   - Sigue los pasos para **"Manage Docker as a non-root user"**
+   - Esto te permite usar Docker **sin sudo**
 
-**Nota:** Esta tarea no tiene puntos pero es requisito para las siguientes clases.
+3. **Verificar instalación:**
+   ```bash
+   docker --version
+   docker run hello-world   # SIN sudo
+   ```
+
+### 2. Instalar Podman
+
+1. **Instalación:**
+   - [https://podman.io/getting-started/installation](https://podman.io/getting-started/installation)
+   - Busca tu distribución y sigue las instrucciones
+
+2. **Post-instalación:**
+   - Busca cómo configurar Podman para correr **sin sudo** (rootless)
+   - Pista: Podman está diseñado para correr rootless por defecto, pero verifica que funcione
+
+3. **Verificar instalación:**
+   ```bash
+   podman --version
+   podman run hello-world   # SIN sudo
+   ```
+
+### Entrega
+
+**Debes poder ejecutar esto SIN sudo:**
+```bash
+docker run hello-world
+podman run hello-world
+```
+
+Si te pide `sudo`, no completaste la post-instalación correctamente.
+
+**Nota:** Esta tarea no tiene puntos pero es **requisito** para las siguientes clases.
 
 :::
 
