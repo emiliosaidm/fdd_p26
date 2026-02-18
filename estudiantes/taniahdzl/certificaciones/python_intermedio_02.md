@@ -1,4 +1,4 @@
-# Certificación Introduction to Python for Developers
+# Certificación Intermediate to Python for Developers
 **Estudiante:** Tania Hernández Lira
 
 **Fecha:** 16-Feb-2026
