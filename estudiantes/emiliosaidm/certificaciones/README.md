@@ -14,4 +14,6 @@
 
 ![Certificado Básico Python](./python-basico.pdf)
 
+![Certificado Intermedio Python](./python-medium.pdf)
+
 
