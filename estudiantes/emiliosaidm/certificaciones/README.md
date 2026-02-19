@@ -9,3 +9,9 @@
 ![Certificado Intermedio GitHub](./github-intermedio.pdf)
 
 ![Certificado Básico Docker](./docker.pdf)
+
+# Python 
+
+![Certificado Básico Python](./python-basico.pdf)
+
+
