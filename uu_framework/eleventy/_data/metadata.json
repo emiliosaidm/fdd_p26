@@ -11,11 +11,11 @@
     "components": [],
     "has_frontmatter": true
   },
-  "11_python_intermedio/01_repaso_ingenieria.md": {
-    "path": "clase/11_python_intermedio/01_repaso_ingenieria.md",
-    "title": "Repaso: Ingeniería de Software en Python",
+  "11_python_intermedio/03_buenas_practicas.md": {
+    "path": "clase/11_python_intermedio/03_buenas_practicas.md",
+    "title": "Buenas practicas en Python",
     "type": "lesson",
-    "order": 1,
+    "order": 3,
     "date": null,
     "summary": null,
     "tags": [],
@@ -24,35 +24,125 @@
       {
         "type": "exercise",
         "attrs": {
-          "title": "Verificación rápida",
-          "difficulty": "1"
+          "title": "Corrige las violaciones de PEP 8",
+          "difficulty": "2"
         },
-        "content_preview": "Sin ver el material de arriba, responde:\n\n1. ¿Qué archivo necesita un directorio para ser un paquete de Python?\n2. ¿Cuál es la diferencia entre `_metodo` y `metodo` en una clase?\n3. ¿Qué hace `super()"
+        "content_preview": "Este codigo tiene al menos 8 violaciones de PEP 8. Identificalas todas y reescribe el codigo corregido:\n\n```python\nimport os,sys\nimport pandas as pd\nfrom pathlib import Path\nimport json\n\ndef Limpiar_D"
       },
       {
         "type": "exercise",
         "attrs": {
-          "title": "Mini-paquete",
+          "title": "Refactoriza con guard clauses",
           "difficulty": "2"
         },
-        "content_preview": "Crea un paquete llamado `calculadora` con esta estructura:\n\n```\ncalculadora/\n├── __init__.py\n├── basica.py        # sumar, restar, multiplicar, dividir\n└── estadistica.py   # promedio, mediana\n```\n\n1."
+        "content_preview": "Reescribe esta funcion usando guard clauses para eliminar la anidacion. La version final debe tener maximo un nivel de indentacion:\n\n```python\ndef procesar_transaccion(usuario, monto, moneda):\n    if "
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Agrega type hints",
+          "difficulty": "1"
+        },
+        "content_preview": "Agrega type hints a estas funciones. No cambies la logica, solo anota parametros y retorno:\n\n```python\ndef filtrar_mayores(personas, edad_minima):\n    return [p for p in personas if p[\"edad\"] >= edad_"
       },
       {
         "type": "prompt",
         "attrs": {
-          "title": "Revisar estructura de un paquete Python",
+          "title": "Revision de codigo para buenas practicas",
           "for": "ChatGPT/Claude"
         },
-        "content_preview": "Tengo un paquete de Python con esta estructura:\n\n```\n[pega aquí tu estructura de directorios]\n```\n\nY este es mi `__init__.py`:\n\n```python\n[pega aquí tu código]\n```\n\nRevisa:\n1. ¿La estructura tiene sen"
+        "content_preview": "Revisa el siguiente codigo Python y dame retroalimentacion sobre buenas practicas:\n\n```python\n[pega aqui tu codigo]\n```\n\nEvalua estos aspectos:\n1. **PEP 8**: convenciones de nombres, espaciado, import"
       }
     ],
     "has_frontmatter": false
   },
-  "11_python_intermedio/02_disenando_una_libreria.md": {
-    "path": "clase/11_python_intermedio/02_disenando_una_libreria.md",
-    "title": "Diseñando una librería",
+  "11_python_intermedio/02_clases_y_objetos.md": {
+    "path": "clase/11_python_intermedio/02_clases_y_objetos.md",
+    "title": "Clases y Objetos en Python",
     "type": "lesson",
     "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Coleccion con metodos magicos",
+          "difficulty": "2"
+        },
+        "content_preview": "Construye una clase `Coleccion` que soporte estas operaciones:\n\n```python\nc = Coleccion(\"frutas\", [\"manzana\", \"pera\", \"uva\", \"mango\"])\n\nlen(c)              # 4\nc[1]                # \"pera\"\n\"uva\" in c "
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Jerarquia de figuras geometricas",
+          "difficulty": "3"
+        },
+        "content_preview": "Disena una jerarquia de clases:\n\n1. Clase base `Figura` con metodos abstractos `area()` y `perimetro()` (que lancen `NotImplementedError`), y `__lt__` que compare por area.\n2. Subclases `Rectangulo`, "
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Revisar diseno de clases",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Tengo esta jerarquia de clases en Python:\n\n```python\n[pega aqui tu codigo]\n```\n\nRevisame:\n\n1. **Relaciones**: las herencias son realmente \"es un tipo de\"? Alguna deberia ser composicion?\n2. **Responsa"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/04_testing_y_documentacion.md": {
+    "path": "clase/11_python_intermedio/04_testing_y_documentacion.md",
+    "title": "Testing y documentacion en Python",
+    "type": "lesson",
+    "order": 4,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Docstrings estilo Google",
+          "difficulty": "1"
+        },
+        "content_preview": "Las siguientes funciones no tienen documentacion. Escribe docstrings estilo Google para cada una, incluyendo Args, Returns y al menos un Example:\n\n```python\ndef limpiar_texto(texto, quitar_numeros=Fal"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Tests para una Calculadora",
+          "difficulty": "2"
+        },
+        "content_preview": "Dada la siguiente clase, escribe un archivo `test_calculadora.py` con al menos 8 tests usando pytest:\n\n```python\n# calculadora.py\nclass Calculadora:\n    def __init__(self):\n        self.historial = []"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Parametrize a fondo",
+          "difficulty": "2"
+        },
+        "content_preview": "Escribe una funcion `clasificar_nota(nota)` que recibe un numero del 0 al 100 y retorna:\n\n- `\"Reprobado\"` si nota < 60\n- `\"Suficiente\"` si 60 <= nota < 70\n- `\"Bien\"` si 70 <= nota < 80\n- `\"Notable\"` s"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Generar tests para una funcion",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Tengo la siguiente funcion de Python:\n\n```python\n[pega tu funcion aqui, con su docstring]\n```\n\nGenera tests exhaustivos usando pytest que cubran:\n\n1. El caso de uso normal (happy path)\n2. Casos borde "
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/05_disenando_una_libreria.md": {
+    "path": "clase/11_python_intermedio/05_disenando_una_libreria.md",
+    "title": "Diseñando una librería",
+    "type": "lesson",
+    "order": 5,
     "date": null,
     "summary": null,
     "tags": [],
@@ -119,6 +209,43 @@
     "tags": [],
     "due_date": null,
     "components": [],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/01_paquetes_y_modulos.md": {
+    "path": "clase/11_python_intermedio/01_paquetes_y_modulos.md",
+    "title": "Paquetes y Modulos en Python",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Explora sys.path y __pycache__",
+          "difficulty": "1"
+        },
+        "content_preview": "1. Ejecuta en Python:\n\n```python\nimport sys\nfor i, ruta in enumerate(sys.path):\n    print(f\"{i}: {ruta}\")\n```\n\nResponde: cual es el primer directorio? Por que esta ahi?\n\n2. Crea `prueba_modulo.py` con"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Mini paquete instalable",
+          "difficulty": "2"
+        },
+        "content_preview": "Crea un paquete instalable `texto_utils`:\n\n```\nmi_proyecto/\n├── texto_utils/\n│   ├── __init__.py\n│   ├── limpieza.py       # limpiar_espacios(), quitar_acentos()\n│   └── estadisticas.py   # contar_pal"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Revisar estructura de paquete",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Estoy creando un paquete de Python. Esta es mi estructura:\n\n```\n[pega aqui tu arbol de directorios]\n```\n\nMi `__init__.py`:\n\n```python\n[pega tu codigo]\n```\n\nMi `setup.py` o `pyproject.toml`:\n\n```python"
+      }
+    ],
     "has_frontmatter": false
   },
   "06_git/03_workflow.md": {
