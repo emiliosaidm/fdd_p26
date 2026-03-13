@@ -12,3 +12,4 @@
 
 
 ![Certificado Pandas](./pandas.pdf)
+![Certificado Básico Polars](./polars-basic.pdf)
