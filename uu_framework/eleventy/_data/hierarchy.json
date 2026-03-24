@@ -1421,6 +1421,113 @@
       "title": "Cómputo: Secuencial, Concurrente, Paralelo y Distribuido"
     },
     {
+      "name": "17_polars",
+      "path": "17_polars",
+      "type": "directory",
+      "order": [
+        0,
+        17,
+        0,
+        ""
+      ],
+      "children": [
+        {
+          "name": "01_historia_y_diseno.md",
+          "path": "17_polars/01_historia_y_diseno.md",
+          "type": "file",
+          "title": "Historia y diseño de Polars",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_arquitectura.md",
+          "path": "17_polars/02_arquitectura.md",
+          "type": "file",
+          "title": "Arquitectura de Polars",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "03_polars_puro.md",
+          "path": "17_polars/03_polars_puro.md",
+          "type": "file",
+          "title": "Polars puro",
+          "order": [
+            0,
+            3,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "04_pipeline_e2e.md",
+          "path": "17_polars/04_pipeline_e2e.md",
+          "type": "file",
+          "title": "Pipeline E2E en Polars",
+          "order": [
+            0,
+            4,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "05_polars_vs_pandas.md",
+          "path": "17_polars/05_polars_vs_pandas.md",
+          "type": "file",
+          "title": "Polars vs pandas",
+          "order": [
+            0,
+            5,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "06_benchmarks.md",
+          "path": "17_polars/06_benchmarks.md",
+          "type": "file",
+          "title": "Benchmarks: Polars vs pandas",
+          "order": [
+            0,
+            6,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "code",
+          "path": "17_polars/code",
+          "type": "directory",
+          "order": [
+            3,
+            0,
+            0,
+            ""
+          ],
+          "children": [],
+          "has_index": false,
+          "title": "Code"
+        }
+      ],
+      "has_index": true,
+      "title": "Polars — DataFrames modernos"
+    },
+    {
       "name": "a_stack",
       "path": "a_stack",
       "type": "directory",
