@@ -11,134 +11,6 @@
     "components": [],
     "has_frontmatter": true
   },
-  "a_stack/01_introduction/01_cuentas.md": {
-    "path": "clase/a_stack/01_introduction/01_cuentas.md",
-    "title": "Configuración de Cuentas",
-    "type": "lesson",
-    "order": 1,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [
-      {
-        "type": "homework",
-        "attrs": {
-          "id": "A.1.1",
-          "title": "Crear cuentas: LLMs y DataCamp",
-          "due": "2026-01-15",
-          "points": "0"
-        },
-        "content_preview": "Crea cuentas en las plataformas de LLM (Gemini, ChatGPT, Claude, etc.) y únete al grupo de DataCamp con tu correo @itam.mx."
-      }
-    ],
-    "has_frontmatter": false
-  },
-  "a_stack/01_introduction/00_index.md": {
-    "path": "clase/a_stack/01_introduction/00_index.md",
-    "title": "Módulo 1: Introducción",
-    "type": "lesson",
-    "order": 0,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [],
-    "has_frontmatter": false
-  },
-  "a_stack/03_os_setup/01_wsl_install.md": {
-    "path": "clase/a_stack/03_os_setup/01_wsl_install.md",
-    "title": "Guía de Sistema Operativo: WSL2 y Linux",
-    "type": "lesson",
-    "order": 1,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [
-      {
-        "type": "homework",
-        "attrs": {
-          "id": "A.3.1",
-          "title": "Leer seccion A.3 OS Setup & Instalación de Unix ",
-          "due": "2026-01-20",
-          "points": "0"
-        },
-        "content_preview": "Leer seccion A.3 completa.  s\nInstala WSL2 en tu computadora Windows siguiendo esta guía. Verifica que funciona ejecutando  `python3 --version` o `python --version` en la terminal de Ubuntu. Si tienes"
-      }
-    ],
-    "has_frontmatter": false
-  },
-  "a_stack/03_os_setup/02_browser_env.md": {
-    "path": "clase/a_stack/03_os_setup/02_browser_env.md",
-    "title": "Guía para Estudiantes: Usar GitHub Codespaces y Ona (antes Gitpod) Solo con el Navegador",
-    "type": "lesson",
-    "order": 2,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [
-      {
-        "type": "homework",
-        "attrs": {
-          "id": "A.3.2",
-          "title": "Crear cuenta de GitHub y solicitar Student Pack",
-          "due": "2026-01-20",
-          "points": "0"
-        },
-        "content_preview": "Crea tu cuenta de GitHub y solicita el GitHub Student Developer Pack siguiendo esta guía. Esto es requisito para las siguientes secciones del curso."
-      }
-    ],
-    "has_frontmatter": false
-  },
-  "a_stack/03_os_setup/00_index.md": {
-    "path": "clase/a_stack/03_os_setup/00_index.md",
-    "title": "Módulo 3: Configuración del Sistema Operativo",
-    "type": "lesson",
-    "order": 0,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [],
-    "has_frontmatter": false
-  },
-  "a_stack/02_llms/01_conceptos_llm.md": {
-    "path": "clase/a_stack/02_llms/01_conceptos_llm.md",
-    "title": "Large Language Models (LLMs)",
-    "type": "lesson",
-    "order": 1,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [
-      {
-        "type": "homework",
-        "attrs": {
-          "id": "A.2.1",
-          "title": "leer  A.2 LLMs & Curso: AI Assisted Coding for Developers",
-          "due": "2026-01-15",
-          "points": "20"
-        },
-        "content_preview": "Leer toda la seccion A.2 LLMs, y despues completar el curso.  \nCompleta el curso [AI Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers). La evide"
-      }
-    ],
-    "has_frontmatter": false
-  },
-  "a_stack/02_llms/00_index.md": {
-    "path": "clase/a_stack/02_llms/00_index.md",
-    "title": "Módulo 2: Large Language Models (LLMs)",
-    "type": "lesson",
-    "order": 0,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [],
-    "has_frontmatter": false
-  },
   "11_python_intermedio/05_paquetes_instalables.md": {
     "path": "clase/11_python_intermedio/05_paquetes_instalables.md",
     "title": "Paquetes instalables: de código a librería",
@@ -786,7 +658,7 @@
         "attrs": {
           "id": "9.P1",
           "title": "Proyecto: Librería de Python publicable en PyPI",
-          "due": "2026-04-28",
+          "due": "2026-04-09",
           "points": "10"
         },
         "content_preview": "Desarrolla una librería de Python útil y publicable. El tema es libre, pero debe resolver un problema real y tener un caso de uso claro.\n\n**Requisitos obligatorios:**\n1. Librería instalable con `pip`."
@@ -1577,6 +1449,106 @@
     "components": [],
     "has_frontmatter": false
   },
+  "17_polars/02_arquitectura.md": {
+    "path": "clase/17_polars/02_arquitectura.md",
+    "title": "Arquitectura de Polars",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": true
+  },
+  "17_polars/04_pipeline_e2e.md": {
+    "path": "clase/17_polars/04_pipeline_e2e.md",
+    "title": "Pipeline E2E en Polars",
+    "type": "lesson",
+    "order": 4,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Extender el pipeline"
+        },
+        "content_preview": "Agrega al pipeline:\n1. Una columna `dia_semana` extraída de la fecha (lunes=1, domingo=7)\n2. Un filtro que excluya ventas de domingo\n3. Una columna calculada `total = precio * cantidad`\n4. Usa `.expla"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "17_polars/05_polars_vs_pandas.md": {
+    "path": "clase/17_polars/05_polars_vs_pandas.md",
+    "title": "Polars vs pandas",
+    "type": "lesson",
+    "order": 5,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": true
+  },
+  "17_polars/06_benchmarks.md": {
+    "path": "clase/17_polars/06_benchmarks.md",
+    "title": "Benchmarks: Polars vs pandas",
+    "type": "lesson",
+    "order": 6,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": true
+  },
+  "17_polars/00_index.md": {
+    "path": "clase/17_polars/00_index.md",
+    "title": "Polars — DataFrames modernos",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": true
+  },
+  "17_polars/03_polars_puro.md": {
+    "path": "clase/17_polars/03_polars_puro.md",
+    "title": "Polars puro",
+    "type": "lesson",
+    "order": 3,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Predecir el plan optimizado"
+        },
+        "content_preview": "Dado este código:\n\n```python\nlf = (\n    pl.scan_csv(\"productos.csv\")         # 20 columnas\n    .filter(pl.col(\"precio\") > 50)\n    .with_columns(\n        (pl.col(\"precio\") * 1.16).alias(\"precio_con_iva"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "17_polars/01_historia_y_diseno.md": {
+    "path": "clase/17_polars/01_historia_y_diseno.md",
+    "title": "Historia y diseño de Polars",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": true
+  },
   "05_bash/05_expansion_sustitucion.md": {
     "path": "clase/05_bash/05_expansion_sustitucion.md",
     "title": "Expansión y Sustitución",
@@ -2143,7 +2115,38 @@
     "summary": null,
     "tags": [],
     "due_date": null,
-    "components": [],
+    "components": [
+      {
+        "type": "exam",
+        "attrs": {
+          "id": "16.E1",
+          "title": "Examen teórico: Secciones 15 y 16",
+          "date": "2026-03-26",
+          "duration": "1 hora"
+        },
+        "content_preview": "Examen en clase de teoría (sin código) sobre las secciones 15 y 16. Vale 20 puntos."
+      },
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "16.2",
+          "title": "Entrega de notebooks: Secciones 15 y 16",
+          "due": "2026-04-09",
+          "points": "50"
+        },
+        "content_preview": "Entrega los notebooks de las secciones 15 y 16.\n\n**Incluye al menos:**\n1. `clase/15_arquitectura_de_computadoras/code/01_arquitectura.ipynb`\n2. `clase/16_computo/code/01_procesos_hilos.ipynb`\n3. `clas"
+      },
+      {
+        "type": "exam",
+        "attrs": {
+          "id": "16.E2",
+          "title": "Examen sección 16: teoría + código/notebooks",
+          "date": "2026-04-09",
+          "duration": "1 hora"
+        },
+        "content_preview": "Examen con teoría y ejercicios sobre notebooks/código de la sección 16. Puede incluir arquitectura, pero está sesgado al código de la sección 16. Vale 10 puntos."
+      }
+    ],
     "has_frontmatter": true
   },
   "16_computo/03_concurrencia_y_asincronia.md": {
@@ -3200,5 +3203,133 @@
       }
     ],
     "has_frontmatter": true
+  },
+  "a_stack/01_introduction/01_cuentas.md": {
+    "path": "clase/a_stack/01_introduction/01_cuentas.md",
+    "title": "Configuración de Cuentas",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "A.1.1",
+          "title": "Crear cuentas: LLMs y DataCamp",
+          "due": "2026-01-15",
+          "points": "0"
+        },
+        "content_preview": "Crea cuentas en las plataformas de LLM (Gemini, ChatGPT, Claude, etc.) y únete al grupo de DataCamp con tu correo @itam.mx."
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "a_stack/01_introduction/00_index.md": {
+    "path": "clase/a_stack/01_introduction/00_index.md",
+    "title": "Módulo 1: Introducción",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "a_stack/03_os_setup/01_wsl_install.md": {
+    "path": "clase/a_stack/03_os_setup/01_wsl_install.md",
+    "title": "Guía de Sistema Operativo: WSL2 y Linux",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "A.3.1",
+          "title": "Leer seccion A.3 OS Setup & Instalación de Unix ",
+          "due": "2026-01-20",
+          "points": "0"
+        },
+        "content_preview": "Leer seccion A.3 completa.  s\nInstala WSL2 en tu computadora Windows siguiendo esta guía. Verifica que funciona ejecutando  `python3 --version` o `python --version` en la terminal de Ubuntu. Si tienes"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "a_stack/03_os_setup/02_browser_env.md": {
+    "path": "clase/a_stack/03_os_setup/02_browser_env.md",
+    "title": "Guía para Estudiantes: Usar GitHub Codespaces y Ona (antes Gitpod) Solo con el Navegador",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "A.3.2",
+          "title": "Crear cuenta de GitHub y solicitar Student Pack",
+          "due": "2026-01-20",
+          "points": "0"
+        },
+        "content_preview": "Crea tu cuenta de GitHub y solicita el GitHub Student Developer Pack siguiendo esta guía. Esto es requisito para las siguientes secciones del curso."
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "a_stack/03_os_setup/00_index.md": {
+    "path": "clase/a_stack/03_os_setup/00_index.md",
+    "title": "Módulo 3: Configuración del Sistema Operativo",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "a_stack/02_llms/01_conceptos_llm.md": {
+    "path": "clase/a_stack/02_llms/01_conceptos_llm.md",
+    "title": "Large Language Models (LLMs)",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "A.2.1",
+          "title": "leer  A.2 LLMs & Curso: AI Assisted Coding for Developers",
+          "due": "2026-01-15",
+          "points": "20"
+        },
+        "content_preview": "Leer toda la seccion A.2 LLMs, y despues completar el curso.  \nCompleta el curso [AI Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers). La evide"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "a_stack/02_llms/00_index.md": {
+    "path": "clase/a_stack/02_llms/00_index.md",
+    "title": "Módulo 2: Large Language Models (LLMs)",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
   }
 }
