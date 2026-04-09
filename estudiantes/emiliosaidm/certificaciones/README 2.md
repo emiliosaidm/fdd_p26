@@ -7,7 +7,7 @@
 
 ![Certificado Básico GitHub](./github-basico.pdf)
 ![Certificado Intermedio GitHub](./github-intermedio.pdf)
-x
+
 ![Certificado Básico Docker](./docker.pdf)
 
 # Python
